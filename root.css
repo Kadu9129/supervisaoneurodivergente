@@ -1,0 +1,42 @@
+ :root {
+    --cor-primaria: #9B59B6; /* Roxo da logo */
+    --cor-secundaria: #2ECC71; /* Verde da logo */
+    --cor-destaque: #F1C40F; /* Amarelo da logo */
+    --cor-acao: #E74C3C; /* Vermelho da logo */
+    --texto-escuro: #333745;
+    --texto-claro: #676b79;
+    --fundo-claro: #F8F9FA;
+    --branco: #FFFFFF;
+    --sombra: 0 10px 30px rgba(0, 0, 0, 0.07);
+    --raio-borda: 12px;
+}
+
+/* Reset e Estilos Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: var(--fundo-claro);
+    color: var(--texto-escuro);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 80px 0;
+}

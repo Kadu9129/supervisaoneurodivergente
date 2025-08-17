@@ -1,0 +1,6 @@
+@media (max-width: 800px) {
+    .nav-principal { display: none; } /* Simplificado para o exemplo */
+    .hero h1 { font-size: 2.5rem; }
+    .conteudo-sobre, .conteudo-supervisao, .grid-depoimentos { grid-template-columns: 1fr; }
+    .imagem-sobre { text-align: center; }
+}

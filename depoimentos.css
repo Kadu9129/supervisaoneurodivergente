@@ -1,0 +1,36 @@
+ #depoimentos { background-color: #f4eefc; }
+.grid-depoimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.card-depoimento {
+    background: var(--branco);
+    padding: 2rem;
+    border-radius: var(--raio-borda);
+    box-shadow: var(--sombra);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card-depoimento img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.card-depoimento p.citacao {
+    font-style: italic;
+    color: var(--texto-claro);
+    margin-bottom: 1rem;
+}
+.card-depoimento .autor {
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+}
+.card-depoimento .cargo {
+    color: var(--texto-claro);
+    font-size: 0.9rem;
+}

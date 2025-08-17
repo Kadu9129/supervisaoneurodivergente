@@ -1,0 +1,24 @@
+        .grid-servicos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .card-servico {
+            background: var(--branco);
+            padding: 2.5rem 2rem;
+            border-radius: var(--raio-borda);
+            box-shadow: var(--sombra);
+            border-top: 4px solid;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-servico:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+        .card-servico h3 { font-size: 1.75rem; margin-bottom: 1rem; color: var(--texto-escuro); }
+        .card-servico .publico-alvo { font-weight: 700; color: var(--cor-primaria); margin-bottom: 1rem; }
+        .card-servico p { color: var(--texto-claro); }
+        .card-servico-supervisao { border-color: var(--cor-primaria); }
+        .card-servico-mentoria { border-color: var(--cor-secundaria); }
+        .card-servico-grupos { border-color: var(--cor-destaque); }

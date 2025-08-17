@@ -1,0 +1,26 @@
+.rodape-principal {
+    background-color: var(--texto-escuro);
+    color: #aab2c0;
+    padding: 3rem 0;
+    text-align: center;
+}
+.logo-rodape {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--branco);
+    margin-bottom: 1rem;
+}
+.links-rodape a {
+    color: #aab2c0;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+.links-rodape a:hover {
+    color: var(--branco);
+}
+.copyright {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}

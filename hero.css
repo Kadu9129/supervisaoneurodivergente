@@ -1,0 +1,39 @@
+.hero {
+    background: linear-gradient(135deg, var(--branco) 60%, #f4eefc);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    color: var(--cor-primaria);
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 1.5rem auto 2.5rem;
+    color: var(--texto-claro);
+}
+
+.btn-primario {
+    background: linear-gradient(45deg, var(--cor-acao), #d35400);
+    color: var(--branco);
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: 0 10px 20px rgba(231, 76, 60, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primario:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(231, 76, 60, 0.25);
+}

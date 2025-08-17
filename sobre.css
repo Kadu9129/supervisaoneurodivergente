@@ -1,0 +1,57 @@
+#sobre { background: var(--branco); }
+
+.conteudo-sobre {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    align-items: center;
+}
+.imagem-sobre img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 15px 40px rgba(155, 89, 182, 0.2);
+}
+
+.texto-sobre h4 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.texto-sobre ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+.texto-sobre li {
+    margin-bottom: 0.5rem;
+    color: var(--texto-claro);
+}
+
+@media (max-width: 768px) {
+    #sobre {
+       padding: 30px;
+    }
+    .conteudo-sobre {
+        grid-template-columns: 1fr; /* Coloca imagem e texto em uma única coluna */
+        gap: 2rem; /* Reduz o espaçamento em telas menores */
+    }
+    .imagem-sobre {
+        text-align: center; /* Centraliza a imagem */
+    }
+    .imagem-sobre img {
+        max-width: 280px; /* Garante que a imagem não fique muito grande no mobile */
+    }
+    .texto-sobre {
+        text-align: center; /* Centraliza o conteúdo de texto para um melhor visual */
+        margin-top: 0rem;
+    }
+    .texto-sobre .titulo-secao {
+        text-align: center !important; /* Força a centralização do título, sobrepondo o estilo inline */
+    }
+    .texto-sobre ul {
+        display: inline-block; /* Permite centralizar o bloco da lista... */
+        text-align: left; /* ...mas mantém o texto da lista alinhado à esquerda para legibilidade */
+    }
+
+}

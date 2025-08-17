@@ -1,0 +1,37 @@
+#investimento { background-color: #f4eefc; }
+.grid-investimento {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
+}
+.card-investimento {
+    background: var(--branco);
+    padding: 2rem;
+    border-radius: var(--raio-borda);
+    box-shadow: var(--sombra);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.card-investimento h3 { font-size: 1.5rem; color: var(--cor-primaria); }
+.card-investimento .preco {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+.card-investimento .preco span { font-size: 1rem; font-weight: 600; color: var(--texto-claro); }
+.card-investimento .detalhes {
+    color: var(--texto-claro);
+    margin-top: auto;
+    padding-top: 1rem;
+}
+.card-investimento .oferta-especial {
+    background-color: var(--cor-destaque);
+    color: var(--texto-escuro);
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
